@@ -1,0 +1,78 @@
+.favorites-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .favorites-modal h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .favorites-modal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .favorite-item {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 80px;
+  }
+  
+  .image-container img {
+    width: 10px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .favorites-modal .product-details {
+    flex: 3;
+    padding-left: 10px;
+    text-align: left;
+  }
+  
+  .favorites-modal .product-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .favorites-modal .product-artist,
+  .favorites-modal .product-description,
+  .favorites-modal .product-price {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .close-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .close-button:hover {
+    background-color: #2980b9;
+  }
+  

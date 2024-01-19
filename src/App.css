@@ -1,0 +1,231 @@
+body {
+  background-color: black;
+  font-family: 'Advent Pro', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("photos/vinylheroimg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-title,
+.carousel-artist {
+  text-align: center;
+  margin-top: 8px;
+  color: black;
+}
+
+.music-carousel-container {
+  width: 80%;
+  margin: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Style for the images inside Swiper slides */
+.swiper-slide img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+header,
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+header {
+  height: 100%;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  color: fuchsia;
+}
+
+.hero-text {
+  font-size: 2rem;
+}
+
+.welcome {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome h2,
+.welcome p {
+  color: white;
+}
+
+/* footer */
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: fuchsia;
+}
+
+.subscribe {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.subscribe input[type="text"] {
+  width: 30vw;
+  padding: 1rem;
+}
+
+button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: fuchsia;
+  font-family: 'Advent Pro', sans-serif;
+  cursor: pointer;
+}
+
+.top-sellers {
+  text-align: center;
+}
+
+.contactus {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact-form {
+  text-align: center;
+  height: 30rem;
+  width: 30rem;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+form textarea,
+form input[type="text"],
+form input[type="email"] ,
+form input[type="phone"]  {
+width: 85%;
+padding: 1rem;
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 34px;
+} 
+
+form textarea {
+resize: none;
+}
+
+form label {
+  font-size: 1.2rem;
+  color: fuchsia;
+  font-weight: 900;
+}
+
+.contact-form button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color:fuchsia;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+
+/* Shop.css */
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+
+
+
+
+
