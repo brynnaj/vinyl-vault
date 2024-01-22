@@ -1,8 +1,7 @@
-
-import Pic1 from './photos/never-enough.jpeg';
-import Pic2 from './photos/over-it-album.jpg';
-import Pic3 from './photos/rena-beyonce.jpg';
-import Pic4 from './photos/wasteland.jpeg';
+import Pic5 from './photos/americandream.jpg';
+import Pic6 from './photos/lastoneleft.jpg';
+import Pic7 from './photos/pinkfriday2.jpg';
+import Pic8 from './photos/destinconrad.jpg';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -11,12 +10,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-const MusicCarousel = () => {
+const NewCarousel = () => {
     const pics = [
-      { title: 'Never Enough', artist: 'Daniel Ceasar', src: Pic1 },
-      { title: 'Over It', artist: 'Summer Walker', src: Pic2 },
-      { title: 'Renaissance', artist: 'Beyonce', src: Pic3 },
-      { title: 'Wasteland', artist: 'Brent Faiyaz', src: Pic4 },
+      { title: 'American Dream', artist: '21 Savage', src: Pic5 },
+      { title: 'Last One Left', artist: 'Brent Faiyaz', src: Pic6 },
+      { title: 'Pink Friday 2', artist: 'Nicki Minaj', src: Pic7 },
+      { title: 'Submissive 2', artist: 'Destin Conrad', src: Pic8 },
     ];
   
     return (
@@ -42,4 +41,4 @@ const MusicCarousel = () => {
       );
     };
     
-    export default MusicCarousel;
+    export default NewCarousel;

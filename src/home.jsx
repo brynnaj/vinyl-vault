@@ -1,5 +1,6 @@
 import React from 'react';
 import MusicCarousel from './carousel';
+import NewCarousel from './carousel2';
 
 
 
@@ -21,8 +22,9 @@ export default function Home() {
         <h2>Top Sellers</h2>
         <MusicCarousel />
       </section>
-      <section>
+      <section className='top-sellers'>
         <h2>New Releases</h2>
+      <NewCarousel />
       </section>
     </main>
   );
