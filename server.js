@@ -57,7 +57,25 @@ app.get('/', (req, res) => {
 });
 
 // Route to fetch all products
-app.get('/products', (req, res) => {
+// app.get('/products', (req, res) => {
+//     const sql = "SELECT id, name, description, price, image_url, artist, genre_id FROM products";
+//     db.query(sql, (err, data) => {
+//         if (err) {
+//             console.error(err);
+//             return res.status(500).json({ error: 'Internal Server Error' });
+//         }
+
+//         return res.json(data);
+//     });
+// });
+
+// const PORT = process.env.PORT || 8000; // Use process.env.PORT if available, otherwise use port 8000
+
+// app.listen(PORT, () => {
+//     console.log(`Server is listening on port ${PORT}`);
+// });
+
+app.get('/', (req, res) => {
     const sql = "SELECT id, name, description, price, image_url, artist, genre_id FROM products";
     db.query(sql, (err, data) => {
         if (err) {
@@ -69,7 +87,7 @@ app.get('/products', (req, res) => {
     });
 });
 
-const PORT = process.env.PORT || 8000; // Use process.env.PORT if available, otherwise use port 8000
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
