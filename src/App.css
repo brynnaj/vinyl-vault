@@ -224,6 +224,31 @@ form label {
   margin-top: 10px;
 }
 
+@media (max-width: 768px) {
+  .contact-form {
+    height: 30rem;
+    width: 20rem;
+    padding: 1rem; /* Adjusted padding for smaller screens */
+  }
+
+  form textarea,
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="phone"] {
+    width: 15rem;
+    padding: 0.8rem; /* Adjusted padding for smaller screens */
+  }
+
+  form label {
+    font-size: 1rem; /* Adjusted font size for smaller screens */
+  }
+
+  .contact-form button {
+    padding: 0.8rem 1.5rem; /* Adjusted padding for smaller screens */
+  }
+}
+
+
 
 
 

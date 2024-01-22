@@ -32,7 +32,7 @@ function App() {
         <h3>Subscribe to our newsletter for updates!</h3>
         <form className="subscribe">
           <input type="text" id="footer-email" name="footer-email" required />
-          <button>Submit</button>
+          <button style = {{marginLeft: '10px'}}>Submit</button>
         </form>
         <a href="https://www.facebook.com/brynnaj">Facebook</a>
         <a href="https://www.instagram.com/brynn.aj/">Instagram</a>
