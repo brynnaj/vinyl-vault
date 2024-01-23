@@ -64,7 +64,7 @@ export default function Shop() {
   const [rbFilter, setRbFilter] = useState(false);
 
   useEffect(() => {
-    fetch("https://v-vault.onrender.com/") /* "http://localhost:8000" if backend not hosted*/
+    fetch("http://localhost:8000") /* "http://localhost:8000" if backend not hosted*/
       .then(res => res.json())
       .then(data => {
         setOriginalData(data);
