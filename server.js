@@ -52,6 +52,9 @@ const db = mysql.createConnection({
 });
 
 // Route to check if the server is running
+// app.get('/', (req, res) => {
+//     return res.json("Server is running");
+// });
 
 // Route to fetch all products
 // app.get('/products', (req, res) => {
